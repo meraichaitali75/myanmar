@@ -1,0 +1,109 @@
+/*=========================================
+
+              Main-Header
+
+===========================================*/
+
+.main-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.shop-wrapper .main-header, .shop-detail-wrapper .main-header {
+  padding: 10px;
+}
+
+.shop-wrapper .main-header .back-icon, .shop-detail-wrapper .main-header .back-icon {
+  color: var(--light-gray);
+}
+
+.shop-wrapper .main-header .return-text, .shop-detail-wrapper .main-header .return-text {
+  font-size: 12px;
+  color: var(--dark);
+  opacity: 0.5;
+  font-weight: var(--font-SemiBold);
+  padding-left: 10px;
+}
+
+.main-header .logo {
+  width: 200px;
+  margin-left: 170px;
+}
+
+.shop-wrapper .main-header .logo, .shop-detail-wrapper .main-header .logo {
+  width: 180px;
+  margin-left: 0;
+}
+
+.main-header .main-header-icons {
+  display: flex;
+  align-items: center;
+}
+
+.main-header .main-header-icons .s-icons {
+  border: 1px solid black;
+  border-radius: 50%;
+  font-size: 14px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: var(--black);
+}
+
+.main-header .main-header-icons .search-icons, .custom-navbar .search-icons {
+  border: 1px solid black;
+  border-radius: 50%;
+  font-size: 14px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--black);
+}
+
+.main-header .main-header-icons .social-icons, .custom-navbar .social-icons {
+  width: auto;
+  height: 23px;
+  object-fit: cover;
+  color: var(--black);
+}
+
+.main-header .main-header-icons .cart-bg {
+  background-color: var(--black);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+/*==================================
+
+               Navbar
+
+  ====================================*/
+
+.custom-navbar {
+  background-color: var(--white);
+  border-bottom: 1px solid var(--light-gray) !important;
+}
+
+.custom-navbar .nav-link {
+  color: var(--black);
+  font-size: 13px;
+  text-transform: capitalize;
+  font-family: Tahoma;
+  /* font-weight: 500; */
+}
+
+.custom-navbar .nav-link:hover, .custom-navbar .active {
+  color: var(--light-pink) !important;
+}

@@ -1,0 +1,80 @@
+@media screen and (max-width: 576px) {
+  .main-header .logo {
+    width: 180px;
+    margin-left: 0;
+  }
+  .content-wrapper .landing-photo-block .landing-blocks {
+    width: 100%;
+  }
+  .content-wrapper .landing-title {
+    font-size: 12px;   
+    margin-top: 20px !important;
+  }
+  .common-frm .form-group {
+    width: 100%;
+  }
+  .archive-wrapper .archive-container .card-img-top, .exhibitions-wrapper .exhibitions-img {
+    height: auto;
+  }
+  .exhibitions-wrapper .exhibitions-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .profile-wrapper .custom-nav .nav-link, .footer .form-control {
+    width: 100%;
+  }
+  .profile-wrapper .profile-row h5 {
+    font-size: 14px;
+  }
+  .profile-wrapper .profile-row h6, .profile-wrapper .profile-row .common-link {
+    font-size: 12px;
+  }
+  .profile-wrapper .profile-container .logout {
+    padding: 5px;
+  }
+  .resources-wrapper .resource-video {
+    height: 100%;
+    width: 100%;
+  }
+  .profile-wrapper .custom-nav .nav-link {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .archive-wrapper .archive-container .card-img-top {
+    background-size: contain;
+    height: auto;
+  }
+  .footer .footer-contry-row {
+    padding: 10px;
+  }
+  .modal .modal-content {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content-wrapper .landing-title {
+    font-size: 12px;
+    margin-top: 5px;
+   
+  }
+  .content-wrapper .landing-sub-title {
+    font-size: 12px;
+  }
+}
+
+/* shop and publications media query */
+
+@media (min-width: 650px) {
+  .shop-wrapper .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 800px) {
+  .shop-wrapper .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
